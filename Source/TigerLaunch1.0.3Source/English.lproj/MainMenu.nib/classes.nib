@@ -1,0 +1,33 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {deletePath = id; newPath = id; }; 
+            CLASS = PathsWindow; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainWindow = NSWindow; pathsTable = NSTableView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                changeIconPref = id; 
+                handleCheckboxClicked = id; 
+                handleNeverShowProjectsClicked = id; 
+                launchApp = id; 
+                launchProject = id; 
+                openAddPathsWindow = id; 
+            }; 
+            CLASS = TigerLaunch; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addPathsWindow = NSWindow; 
+                appsTable = NSTableView; 
+                configureWindow = NSWindow; 
+                iconPopup = NSPopUpButton; 
+                neverShowProjectsMenu = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

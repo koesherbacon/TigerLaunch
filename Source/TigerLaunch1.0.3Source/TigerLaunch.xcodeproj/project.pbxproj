@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847E20CD0A548EC300A98C97 /* TigerLaunch.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F7FEC802FB57B801A80212 /* TigerLaunch.h */; };
+		847E20CE0A548EC300A98C97 /* PathsWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EC42A203DBAC8100A80002 /* PathsWindow.h */; };
+		847E20D00A548EC300A98C97 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		847E20D10A548EC300A98C97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		847E20D20A548EC300A98C97 /* stripesColor.icns in Resources */ = {isa = PBXBuildFile; fileRef = F52C85CA033A80DF01A80222 /* stripesColor.icns */; };
+		847E20D30A548EC300A98C97 /* pawSolid.icns in Resources */ = {isa = PBXBuildFile; fileRef = F52C85CC033A81B001A80222 /* pawSolid.icns */; };
+		847E20D40A548EC300A98C97 /* pawWhite.icns in Resources */ = {isa = PBXBuildFile; fileRef = F52C85CE033A825A01A80222 /* pawWhite.icns */; };
+		847E20D50A548EC300A98C97 /* eyeLeft.icns in Resources */ = {isa = PBXBuildFile; fileRef = F52C85D0033A82B001A80222 /* eyeLeft.icns */; };
+		847E20D60A548EC300A98C97 /* eyeRight.icns in Resources */ = {isa = PBXBuildFile; fileRef = F52C85D2033A835001A80222 /* eyeRight.icns */; };
+		847E20D70A548EC300A98C97 /* faceBw.icns in Resources */ = {isa = PBXBuildFile; fileRef = F52C85D3033A835001A80222 /* faceBw.icns */; };
+		847E20D80A548EC300A98C97 /* faceColor.icns in Resources */ = {isa = PBXBuildFile; fileRef = F52C85D4033A835001A80222 /* faceColor.icns */; };
+		847E20D90A548EC300A98C97 /* stripesBw.icns in Resources */ = {isa = PBXBuildFile; fileRef = F52C85D8033A835F01A80222 /* stripesBw.icns */; };
+		847E20DA0A548EC300A98C97 /* appPaw.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5968F5F033BD84601A80222 /* appPaw.icns */; };
+		847E20DB0A548EC300A98C97 /* headBw.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5968F61033BD85201A80222 /* headBw.icns */; };
+		847E20DC0A548EC300A98C97 /* headBw2.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5968F63033BD85601A80222 /* headBw2.icns */; };
+		847E20DD0A548EC300A98C97 /* stripesBwRect.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5968F65033BD86401A80222 /* stripesBwRect.icns */; };
+		847E20DE0A548EC300A98C97 /* stripesColorRect.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5968F67033BD86901A80222 /* stripesColorRect.icns */; };
+		847E20DF0A548EC300A98C97 /* appicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 848970ED04717DC000A80004 /* appicon.icns */; };
+		847E20E10A548EC300A98C97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		847E20E20A548EC300A98C97 /* TigerLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F7FEC702FB57B801A80212 /* TigerLaunch.m */; };
+		847E20E30A548EC300A98C97 /* PathsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC42A403DBAC8500A80002 /* PathsWindow.m */; };
+		847E20E50A548EC300A98C97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		847E20EA0A548EC300A98C97 /* Info-TigerLaunch__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-TigerLaunch__Upgraded_.plist"; sourceTree = "<group>"; };
+		847E20EB0A548EC300A98C97 /* TigerLaunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TigerLaunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848970ED04717DC000A80004 /* appicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = appicon.icns; path = Icons/appicon.icns; sourceTree = "<group>"; };
+		84EC42A203DBAC8100A80002 /* PathsWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PathsWindow.h; path = PathsWindow/PathsWindow.h; sourceTree = "<group>"; };
+		84EC42A403DBAC8500A80002 /* PathsWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PathsWindow.m; path = PathsWindow/PathsWindow.m; sourceTree = "<group>"; };
+		F52C85CA033A80DF01A80222 /* stripesColor.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = stripesColor.icns; path = Icons/stripesColor.icns; sourceTree = "<group>"; };
+		F52C85CC033A81B001A80222 /* pawSolid.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = pawSolid.icns; path = Icons/pawSolid.icns; sourceTree = "<group>"; };
+		F52C85CE033A825A01A80222 /* pawWhite.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = pawWhite.icns; path = Icons/pawWhite.icns; sourceTree = "<group>"; };
+		F52C85D0033A82B001A80222 /* eyeLeft.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = eyeLeft.icns; path = Icons/eyeLeft.icns; sourceTree = "<group>"; };
+		F52C85D2033A835001A80222 /* eyeRight.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = eyeRight.icns; path = Icons/eyeRight.icns; sourceTree = "<group>"; };
+		F52C85D3033A835001A80222 /* faceBw.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = faceBw.icns; path = Icons/faceBw.icns; sourceTree = "<group>"; };
+		F52C85D4033A835001A80222 /* faceColor.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = faceColor.icns; path = Icons/faceColor.icns; sourceTree = "<group>"; };
+		F52C85D8033A835F01A80222 /* stripesBw.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = stripesBw.icns; path = Icons/stripesBw.icns; sourceTree = "<group>"; };
+		F5968F5F033BD84601A80222 /* appPaw.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = appPaw.icns; path = Icons/appPaw.icns; sourceTree = "<group>"; };
+		F5968F61033BD85201A80222 /* headBw.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = headBw.icns; path = Icons/headBw.icns; sourceTree = "<group>"; };
+		F5968F63033BD85601A80222 /* headBw2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = headBw2.icns; path = Icons/headBw2.icns; sourceTree = "<group>"; };
+		F5968F65033BD86401A80222 /* stripesBwRect.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = stripesBwRect.icns; path = Icons/stripesBwRect.icns; sourceTree = "<group>"; };
+		F5968F67033BD86901A80222 /* stripesColorRect.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = stripesColorRect.icns; path = Icons/stripesColorRect.icns; sourceTree = "<group>"; };
+		F5F7FEC702FB57B801A80212 /* TigerLaunch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TigerLaunch.m; sourceTree = "<group>"; };
+		F5F7FEC802FB57B801A80212 /* TigerLaunch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TigerLaunch.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847E20E40A548EC300A98C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847E20E50A548EC300A98C97 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5F7FEC802FB57B801A80212 /* TigerLaunch.h */,
+				F5F7FEC702FB57B801A80212 /* TigerLaunch.m */,
+				84EC42A203DBAC8100A80002 /* PathsWindow.h */,
+				84EC42A403DBAC8500A80002 /* PathsWindow.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847E20EB0A548EC300A98C97 /* TigerLaunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TigerLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				847E20EA0A548EC300A98C97 /* Info-TigerLaunch__Upgraded_.plist */,
+			);
+			name = TigerLaunch;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				848970ED04717DC000A80004 /* appicon.icns */,
+				F52C85CE033A825A01A80222 /* pawWhite.icns */,
+				F52C85CC033A81B001A80222 /* pawSolid.icns */,
+				F5968F5F033BD84601A80222 /* appPaw.icns */,
+				F52C85D3033A835001A80222 /* faceBw.icns */,
+				F52C85D4033A835001A80222 /* faceColor.icns */,
+				F5968F61033BD85201A80222 /* headBw.icns */,
+				F5968F63033BD85601A80222 /* headBw2.icns */,
+				F52C85D0033A82B001A80222 /* eyeLeft.icns */,
+				F52C85D2033A835001A80222 /* eyeRight.icns */,
+				F52C85D8033A835F01A80222 /* stripesBw.icns */,
+				F5968F65033BD86401A80222 /* stripesBwRect.icns */,
+				F52C85CA033A80DF01A80222 /* stripesColor.icns */,
+				F5968F67033BD86901A80222 /* stripesColorRect.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		847E20CC0A548EC300A98C97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847E20CD0A548EC300A98C97 /* TigerLaunch.h in Headers */,
+				847E20CE0A548EC300A98C97 /* PathsWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		847E20CB0A548EC300A98C97 /* TigerLaunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847E20E60A548EC300A98C97 /* Build configuration list for PBXNativeTarget "TigerLaunch" */;
+			buildPhases = (
+				847E20CC0A548EC300A98C97 /* Headers */,
+				847E20CF0A548EC300A98C97 /* Resources */,
+				847E20E00A548EC300A98C97 /* Sources */,
+				847E20E40A548EC300A98C97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TigerLaunch;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TigerLaunch;
+			productReference = 847E20EB0A548EC300A98C97 /* TigerLaunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 847E20A70A548B4200A98C97 /* Build configuration list for PBXProject "TigerLaunch" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TigerLaunch */;
+			projectDirPath = "";
+			targets = (
+				847E20CB0A548EC300A98C97 /* TigerLaunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847E20CF0A548EC300A98C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847E20D00A548EC300A98C97 /* MainMenu.nib in Resources */,
+				847E20D10A548EC300A98C97 /* InfoPlist.strings in Resources */,
+				847E20D20A548EC300A98C97 /* stripesColor.icns in Resources */,
+				847E20D30A548EC300A98C97 /* pawSolid.icns in Resources */,
+				847E20D40A548EC300A98C97 /* pawWhite.icns in Resources */,
+				847E20D50A548EC300A98C97 /* eyeLeft.icns in Resources */,
+				847E20D60A548EC300A98C97 /* eyeRight.icns in Resources */,
+				847E20D70A548EC300A98C97 /* faceBw.icns in Resources */,
+				847E20D80A548EC300A98C97 /* faceColor.icns in Resources */,
+				847E20D90A548EC300A98C97 /* stripesBw.icns in Resources */,
+				847E20DA0A548EC300A98C97 /* appPaw.icns in Resources */,
+				847E20DB0A548EC300A98C97 /* headBw.icns in Resources */,
+				847E20DC0A548EC300A98C97 /* headBw2.icns in Resources */,
+				847E20DD0A548EC300A98C97 /* stripesBwRect.icns in Resources */,
+				847E20DE0A548EC300A98C97 /* stripesColorRect.icns in Resources */,
+				847E20DF0A548EC300A98C97 /* appicon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847E20E00A548EC300A98C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847E20E10A548EC300A98C97 /* main.m in Sources */,
+				847E20E20A548EC300A98C97 /* TigerLaunch.m in Sources */,
+				847E20E30A548EC300A98C97 /* PathsWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847E20A80A548B4200A98C97 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		847E20A90A548B4200A98C97 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+			};
+			name = Deployment;
+		};
+		847E20AA0A548B4200A98C97 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		847E20E70A548EC300A98C97 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-TigerLaunch__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = TigerLaunch;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		847E20E80A548EC300A98C97 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-TigerLaunch__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = TigerLaunch;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		847E20E90A548EC300A98C97 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-TigerLaunch__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = TigerLaunch;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847E20A70A548B4200A98C97 /* Build configuration list for PBXProject "TigerLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847E20A80A548B4200A98C97 /* Development */,
+				847E20A90A548B4200A98C97 /* Deployment */,
+				847E20AA0A548B4200A98C97 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		847E20E60A548EC300A98C97 /* Build configuration list for PBXNativeTarget "TigerLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847E20E70A548EC300A98C97 /* Development */,
+				847E20E80A548EC300A98C97 /* Deployment */,
+				847E20E90A548EC300A98C97 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
