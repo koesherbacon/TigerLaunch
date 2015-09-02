@@ -9,3 +9,6 @@ To directly quote Macupdate.com's description of TigerLaunch:
 You can view screenshots of my own Menu and Configuration here:
  - Personal Menu - http://is.gd/B08gYA
  - Configuration: http://is.gd/6asPLs
+
+![Personal Menu](http://is.gd/B08gYA)
+![Configuration](http://is.gd/6asPLs)
