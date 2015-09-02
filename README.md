@@ -7,8 +7,9 @@ To directly quote Macupdate.com's description of TigerLaunch:
  - TigerLaunch allows you to be more selective about what apps are dock-worthy, so your dock doesn't get so cluttered. It also makes it easier to launch apps that are buried in sub-folders, such as in the Utilities folder of your Applications folder. The source code is available.
 
 You can view screenshots of my own Menu and Configuration here:
- - Personal Menu - http://is.gd/B08gYA
- - Configuration: http://is.gd/6asPLs
 
-![Personal Menu](http://is.gd/B08gYA)
-![Configuration](http://is.gd/6asPLs)
+<i>Personal Menu</i>
+![Personal Menu](https://raw.githubusercontent.com/koesherbacon/TigerLaunch/master/Screenshots/TigerLaunch%20Menu%20Example.png)
+
+<i>Configuration Window</i>
+![Configuration](https://raw.githubusercontent.com/koesherbacon/TigerLaunch/master/Screenshots/TigerLaunch%20Configuration%20Example.png)
